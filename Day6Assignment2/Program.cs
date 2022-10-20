@@ -6,7 +6,8 @@
         {
             UserInput Input = new UserInput();
             //Input.vendingMachineProblem(); // Calling Vending Machine Problem
-            Input.dayOfWeekProblem(); // Calling Day Of Week Problem
+            // Input.dayOfWeekProblem(); // Calling Day Of Week Problem
+            Input.temperatureConversionProblem(); // Calling Temperature Conversion Problem
         }
     }
 }

@@ -13,9 +13,7 @@ namespace Day6Assignment2
         {
             var vm = VendingMachine.UserInputForVendingMachine();
             VendingMachine machine = new VendingMachine(vm.Number);
-            machine.calculateChange();
-                
-            
+            machine.calculateChange();  
         }
         // Day Of Week Problem
         public void dayOfWeekProblem()
@@ -23,6 +21,13 @@ namespace Day6Assignment2
             var w = DayOfWeek.UserInputForDayOfWeek();
             DayOfWeek week = new DayOfWeek(w.Date,w.Month,w.Year);
             week.FindDayOfWeek();
+        }
+        // Temperature Conversion Problem
+        public void temperatureConversionProblem()
+        {
+            var tm = TemperatureConversion.UserInputForTemperature();
+            TemperatureConversion temperature = new TemperatureConversion(tm.Option);
+            temperature.TemperatureConversionCalculation();
         }
     }
 }

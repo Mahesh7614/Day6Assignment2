@@ -21,7 +21,7 @@ namespace Day6Assignment2
 
             return new VendingMachine(n)
             {
-                Number=n
+                Number = n
             };
         }
         public void calculateChange()

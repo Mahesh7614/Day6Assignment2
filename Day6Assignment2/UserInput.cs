@@ -29,5 +29,19 @@ namespace Day6Assignment2
             TemperatureConversion temperature = new TemperatureConversion(tm.Option);
             temperature.TemperatureConversionCalculation();
         }
+        // Monthly Payment Problem
+        public void MonthlyPaymentProblem()
+        {
+            var mp = MonthlyPayment.UserInputForMonthlyPayment();
+            MonthlyPayment payment = new MonthlyPayment(mp.Principal, mp.InterestRate, mp.Year);
+            payment.CalculateMonthlyPayment();
+        }
+        // Square Root Of Number Problem
+        public void SquareRootProblem()
+        {
+            var sq = SquareRoot.UserInputForSquareRoot();
+            SquareRoot root = new SquareRoot(sq.Number);
+            root.CalculateSquareRoot();
+        }
     }
 }

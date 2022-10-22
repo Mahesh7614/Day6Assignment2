@@ -5,12 +5,12 @@
         static void Main(string[] args)
         {
             UserInput Input = new UserInput();
-            //Input.vendingMachineProblem(); // Calling Vending Machine Problem
-            //Input.dayOfWeekProblem(); // Calling Day Of Week Problem
-            //Input.temperatureConversionProblem(); // Calling Temperature Conversion Problem
-            //Input.MonthlyPaymentProblem(); // Calling Monthly Payment Problem
-            // Input.SquareRootProblem(); // calling Square Root Problem
-            //Input.DecimalToBinaryConversionProblem(); // Calling Decimal To Binary Conversion Problem
+            Input.vendingMachineProblem(); // Calling Vending Machine Problem
+            Input.dayOfWeekProblem(); // Calling Day Of Week Problem
+            Input.temperatureConversionProblem(); // Calling Temperature Conversion Problem
+            Input.MonthlyPaymentProblem(); // Calling Monthly Payment Problem
+            Input.SquareRootProblem(); // calling Square Root Problem
+            Input.DecimalToBinaryConversionProblem(); // Calling Decimal To Binary Conversion Problem
             Input.IntegerToBinaryConversionProblem(); // Calling Integer to Binary Conversion Problem
         }
     }

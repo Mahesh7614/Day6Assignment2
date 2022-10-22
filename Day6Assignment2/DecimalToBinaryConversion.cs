@@ -30,11 +30,9 @@ namespace Day6Assignment2
 
             while( DNumber > 0)
             {
-                //numberArray[i] = DNumber % 2;
                 int r = DNumber % 2;
                 result = Convert.ToString(r) + result;
                 DNumber /= 2;
-
             }
             Console.WriteLine("Binary Representation of the Given Number is : " + result); 
         }

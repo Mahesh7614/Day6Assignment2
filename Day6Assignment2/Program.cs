@@ -9,7 +9,9 @@
             //Input.dayOfWeekProblem(); // Calling Day Of Week Problem
             //Input.temperatureConversionProblem(); // Calling Temperature Conversion Problem
             //Input.MonthlyPaymentProblem(); // Calling Monthly Payment Problem
-            Input.SquareRootProblem(); // calling Square Root Problem
+            // Input.SquareRootProblem(); // calling Square Root Problem
+            //Input.DecimalToBinaryConversionProblem(); // Calling Decimal To Binary Conversion Problem
+            Input.IntegerToBinaryConversionProblem(); // Calling Integer to Binary Conversion Problem
         }
     }
 }

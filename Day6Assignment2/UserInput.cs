@@ -43,5 +43,19 @@ namespace Day6Assignment2
             SquareRoot root = new SquareRoot(sq.Number);
             root.CalculateSquareRoot();
         }
+        // Decimal To Binary Coversion Problem
+        public void DecimalToBinaryConversionProblem()
+        {
+            var db = DecimalToBinaryConversion.UserInputForDecimalToBinary();
+            DecimalToBinaryConversion binary = new DecimalToBinaryConversion(db.DNumber);
+            binary.ConvertDecimalToBinary();
+        }
+        // Integer to Binary Conversion Problem
+        public void IntegerToBinaryConversionProblem()
+        {
+            var ib = IntegerToBinaryConversion.UserInputForIntegerToBinary();
+            IntegerToBinaryConversion bin = new IntegerToBinaryConversion(ib.IntNumber);
+            bin.ConvertIntegerToBinary();
+        }
     }
 }
